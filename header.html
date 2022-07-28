@@ -1,0 +1,56 @@
+<head>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Blinker&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background-color: #f3f3f3;
+      display: grid;
+      place-items: center;
+      justify-items: stretch;
+      font-family: "Blinker", sans-serif;
+    }
+    .head-content {
+      text-align: center;
+      color: #303841;
+    }
+    .hd {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .circular--square {
+      height: 100px;
+      border-top-left-radius: 50% 50%;
+      border-top-right-radius: 50% 50%;
+      border-bottom-right-radius: 50% 50%;
+      border-bottom-left-radius: 50% 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="head-content">
+    <div class="hd">
+      <img src="logo.png" height="100px" alt="logo" />
+      <h1 style="display: inline-block; font-size: xx-large">Uber Database</h1>
+      <img src="./prof.jpg" alt="profile-pic" class="circular--square" />
+    </div>
+    <p
+      style="
+        margin: 5px auto;
+        width: fit-content;
+        background-color: #303841;
+        color: #f3f3f3;
+        padding: 12px 5px;
+        border-radius: 5px;
+      "
+    >
+      T. Joy Jeevan <br />218W5A1211
+    </p>
+  </div>
+  <script src="./iframeResizer.contentWindow.min.js"></script>
+</body>

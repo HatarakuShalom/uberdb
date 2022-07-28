@@ -1,0 +1,32 @@
+<head>
+  <style>
+    body {
+      background-color: #f3f3f3;
+      margin: 0;
+    }
+    #header {
+      min-width: 100%;
+    }
+    .grid {
+      display: grid;
+      grid-template-areas: "left right";
+      grid-template-columns: 0.6fr 3fr;
+      justify-items: stretch;
+      align-items: stretch;
+    }
+    #list {
+      grid-area: left;
+    }
+    #main {
+      grid-area: right;
+    }
+  </style>
+  <title>218W5A1211</title>
+</head>
+<iframe src="header.html" frameborder="0" name="header" id="header"></iframe>
+<div class="grid">
+  <iframe src="list.html" frameborder="0" name="list" id="list"></iframe>
+  <iframe src="main.html" frameborder="0" name="main" id="main"></iframe>
+  <script src="./iframeResizer.min.js"></script>
+</div>
+<script src="./main.js"></script>
